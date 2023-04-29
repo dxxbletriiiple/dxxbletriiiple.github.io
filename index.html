@@ -1,13 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React + TS</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- meta info -->
+		<title>Javlon Akhundjanov | Frontend Developer</title>
+		<meta name="title" content="Javlon Akhundjanov | Frontend Developer" />
+		<meta
+			name="description"
+			content="Two year experienced frontend dev skilled in React, TypeScript, Webpack & Redux. Passionate about creating engaging user interfaces & ready to collaborate."
+		/>
+		<!-- Open Graph / Facebook -->
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="https://dxxbletriiiple.github.io/" />
+		<meta property="og:title" content="Javlon Akhundjanov | Frontend Developer" />
+		<meta
+			property="og:description"
+			content="Two year experienced frontend dev skilled in React, TypeScript, Webpack & Redux. Passionate about creating engaging user interfaces & ready to collaborate."
+		/>
+		<meta property="og:image" content="https://raw.githubusercontent.com/dxxbletriiiple/dxxbletriiiple.github.io/main/public/meta_img.jpg" />
+		<!-- Twitter -->
+		<meta property="twitter:card" content="summary_large_image" />
+		<meta property="twitter:url" content="https://dxxbletriiiple.github.io/" />
+		<meta property="twitter:title" content="Javlon Akhundjanov | Frontend Developer" />
+		<meta
+			property="twitter:description"
+			content="Two year experienced frontend dev skilled in React, TypeScript, Webpack & Redux. Passionate about creating engaging user interfaces & ready to collaborate."
+		/>
+		<meta property="twitter:image" content="https://raw.githubusercontent.com/dxxbletriiiple/dxxbletriiiple.github.io/main/public/meta_img.jpg" />
+
+		<!-- favicon light -->
+		<link rel="apple-touch-icon" sizes="57x57" media="(prefers-color-scheme: light)" href="favicon-light/apple-icon-57x57.png" />
+		<link rel="apple-touch-icon" sizes="60x60" media="(prefers-color-scheme: light)" href="favicon-light/apple-icon-60x60.png" />
+		<link rel="apple-touch-icon" sizes="72x72" media="(prefers-color-scheme: light)" href="favicon-light/apple-icon-72x72.png" />
+		<link rel="apple-touch-icon" sizes="76x76" media="(prefers-color-scheme: light)" href="favicon-light/apple-icon-76x76.png" />
+		<link rel="apple-touch-icon" sizes="114x114" media="(prefers-color-scheme: light)" href="favicon-light/apple-icon-114x114.png" />
+		<link rel="apple-touch-icon" sizes="120x120" media="(prefers-color-scheme: light)" href="favicon-light/apple-icon-120x120.png" />
+		<link rel="apple-touch-icon" sizes="144x144" media="(prefers-color-scheme: light)" href="favicon-light/apple-icon-144x144.png" />
+		<link rel="apple-touch-icon" sizes="152x152" media="(prefers-color-scheme: light)" href="favicon-light/apple-icon-152x152.png" />
+		<link rel="apple-touch-icon" sizes="180x180" media="(prefers-color-scheme: light)" href="favicon-light/apple-icon-180x180.png" />
+		<link rel="icon" type="image/png" sizes="192x192" media="(prefers-color-scheme: light)" href="favicon-light/android-icon-192x192.png" />
+		<link rel="icon" type="image/png" sizes="32x32" media="(prefers-color-scheme: light)" href="favicon-light/favicon-32x32.png" />
+		<link rel="icon" type="image/png" sizes="96x96" media="(prefers-color-scheme: light)" href="favicon-light/favicon-96x96.png" />
+		<link rel="icon" type="image/png" sizes="16x16" media="(prefers-color-scheme: light)" href="favicon-light/favicon-16x16.png" />
+		<link rel="manifest" media="(prefers-color-scheme: light)" href="favicon-light/manifest.json" />
+		<meta name="msapplication-TileColor" media="(prefers-color-scheme: light)" content="#ffffff" />
+		<meta name="msapplication-TileImage" media="(prefers-color-scheme: light)" content="favicon-light/ms-icon-144x144.png" />
+		<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff" />
+
+		<!-- favicon dark -->
+		<link rel="apple-touch-icon" sizes="57x57" media="(prefers-color-scheme: dark)" href="favicon-dark/apple-icon-57x57.png" />
+		<link rel="apple-touch-icon" sizes="60x60" media="(prefers-color-scheme: dark)" href="favicon-dark/apple-icon-60x60.png" />
+		<link rel="apple-touch-icon" sizes="72x72" media="(prefers-color-scheme: dark)" href="favicon-dark/apple-icon-72x72.png" />
+		<link rel="apple-touch-icon" sizes="76x76" media="(prefers-color-scheme: dark)" href="favicon-dark/apple-icon-76x76.png" />
+		<link rel="apple-touch-icon" sizes="114x114" media="(prefers-color-scheme: dark)" href="favicon-dark/apple-icon-114x114.png" />
+		<link rel="apple-touch-icon" sizes="120x120" media="(prefers-color-scheme: dark)" href="favicon-dark/apple-icon-120x120.png" />
+		<link rel="apple-touch-icon" sizes="144x144" media="(prefers-color-scheme: dark)" href="favicon-dark/apple-icon-144x144.png" />
+		<link rel="apple-touch-icon" sizes="152x152" media="(prefers-color-scheme: dark)" href="favicon-dark/apple-icon-152x152.png" />
+		<link rel="apple-touch-icon" sizes="180x180" media="(prefers-color-scheme: dark)" href="favicon-dark/apple-icon-180x180.png" />
+		<link rel="icon" type="image/png" sizes="192x192" media="(prefers-color-scheme: dark)" href="favicon-dark/android-icon-192x192.png" />
+		<link rel="icon" type="image/png" sizes="32x32" media="(prefers-color-scheme: dark)" href="favicon-dark/favicon-32x32.png" />
+		<link rel="icon" type="image/png" sizes="96x96" media="(prefers-color-scheme: dark)" href="favicon-dark/favicon-96x96.png" />
+		<link rel="icon" type="image/png" sizes="16x16" media="(prefers-color-scheme: dark)" href="favicon-dark/favicon-16x16.png" />
+		<link rel="manifest" media="(prefers-color-scheme: dark)" href="favicon-dark/manifest.json" />
+		<meta name="msapplication-TileColor" media="(prefers-color-scheme: dark)" content="#ffffff" />
+		<meta name="msapplication-TileImage" media="(prefers-color-scheme: dark)" content="favicon-dark/ms-icon-144x144.png" />
+		<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#000000" />
+	</head>
+	<body>
+		<div id="root"></div>
+		<script type="module" src="/src/main.tsx"></script>
+	</body>
 </html>

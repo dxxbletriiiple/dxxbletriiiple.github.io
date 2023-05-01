@@ -19,7 +19,7 @@ export const Promo = () => {
 					<div className={st.doodles} style={{ backgroundImage: `url(${svg})` }}>
 						<div className={st.doodle}>
 							<svg width='401' height='473' viewBox='0 0 401 473' fill='none' xmlns='http://www.w3.org/2000/svg'>
-								<ellipse cx='175' cy='372' rx='174' ry='12' fill='black' fill-opacity='0.5' />
+								<ellipse cx='175' cy='372' rx='174' ry='12' fill='black' fillOpacity='0.5' />
 								<path
 									fillRule='evenodd'
 									clipRule='evenodd'

@@ -1,5 +1,6 @@
 import Header from '../Header';
 import Promo from '../Promo';
+import About from '../About';
 import st from './App.module.scss';
 
 export const App = () => {
@@ -8,6 +9,7 @@ export const App = () => {
 			<Header />
 			<main className={st.app}>
 				<Promo />
+				<About />
 			</main>
 		</>
 	);

@@ -9,7 +9,7 @@ export const About = () => {
 				<div className={st.wrapper}>
 					<div className={st.wrap}>
 						<h2 className={st.header}>
-							About <span>me</span>
+							About <span className='colored'>me</span>
 						</h2>
 						<p className={st.text}>
 							Hey, I'm <strong>Javlon</strong>, a frontend developer with over 2 years of experience in React, Redux, Webpack, Node.js, and other

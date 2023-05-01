@@ -9,7 +9,7 @@ export const Promo = () => {
 				<div className={st.wrapper}>
 					<div className={st.textwrap}>
 						<h1 className={st.text}>
-							Frontend<span>Developer</span>
+							Frontend<span className='colored'>Developer</span>
 						</h1>
 						<div className={st.btns}>
 							<button className={cn(st.btn, st.hire)}>Hire me</button>

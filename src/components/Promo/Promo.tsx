@@ -1,6 +1,6 @@
-import cn from 'classnames';
 import st from './Promo.module.scss';
 import svg from '../../assets/round.svg';
+import Button from '../Buttons';
 
 export const Promo = () => {
 	return (
@@ -12,8 +12,8 @@ export const Promo = () => {
 							Frontend<span className='colored'>Developer</span>
 						</h1>
 						<div className={st.btns}>
-							<button className={cn(st.btn, st.hire)}>Hire me</button>
-							<button className={cn(st.btn, st.cv)}>Download CV</button>
+							<Button text='Hire me' className='active' />
+							<Button text='Download CV' className='dark' />
 						</div>
 					</div>
 					<div className={st.doodles} style={{ backgroundImage: `url(${svg})` }}>

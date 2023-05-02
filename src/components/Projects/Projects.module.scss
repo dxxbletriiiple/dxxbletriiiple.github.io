@@ -1,0 +1,26 @@
+.projects {
+	height: 1024px;
+	padding: 268px 120px 0;
+	background-repeat: repeat;
+	background-size: initial;
+}
+.wrapper {
+}
+
+.btns {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 16px;
+	width: max-content;
+	margin-top: 16px;
+}
+
+.row {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 48px;
+	width: max-content;
+	margin-top: 48px;
+}

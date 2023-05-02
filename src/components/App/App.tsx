@@ -1,6 +1,7 @@
 import Header from '../Header';
 import Promo from '../Promo';
 import About from '../About';
+import Projects from '../Projects';
 import st from './App.module.scss';
 
 export const App = () => {
@@ -10,6 +11,7 @@ export const App = () => {
 			<main className={st.app}>
 				<Promo />
 				<About />
+				<Projects />
 			</main>
 		</>
 	);

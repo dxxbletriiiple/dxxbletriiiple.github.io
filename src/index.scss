@@ -145,6 +145,7 @@ table {
 
 body {
 	background-color: var(--bg);
+	scroll-behavior: smooth;
 }
 
 .container {
@@ -154,4 +155,10 @@ body {
 
 span.colored {
 	color: var(--main);
+}
+
+h2.title {
+	font-weight: 700;
+	font-size: 64px;
+	line-height: 96px;
 }

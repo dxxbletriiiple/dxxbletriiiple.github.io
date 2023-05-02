@@ -1,3 +1,4 @@
+import cn from 'classnames';
 import st from './About.module.scss';
 import svg from '../../assets/man-sit.svg';
 import bg from '../../assets/doodle.svg';
@@ -8,7 +9,7 @@ export const About = () => {
 			<div className='container'>
 				<div className={st.wrapper}>
 					<div className={st.wrap}>
-						<h2 className={st.header}>
+						<h2 className={cn(st.header, 'title')}>
 							About <span className='colored'>me</span>
 						</h2>
 						<p className={st.text}>

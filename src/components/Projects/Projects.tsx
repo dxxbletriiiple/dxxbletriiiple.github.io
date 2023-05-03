@@ -20,15 +20,15 @@ export const Projects = () => {
 					<div className={st.btns}>
 						{x.map((el, i) =>
 							i === active ? (
-								<Button text={el} className='active' onClick={() => setActive(i)} />
+								<Button text={el} className='active' onClick={() => setActive(i)} key={crypto.randomUUID()} />
 							) : (
-								<Button text={el} className='proj' onClick={() => setActive(i)} />
+								<Button text={el} className='proj' onClick={() => setActive(i)} key={crypto.randomUUID()} />
 							)
 						)}
 					</div>
 					<div className={st.row}>
 						{z.map((el) => (
-							<a href='#'>
+							<a href='#' key={crypto.randomUUID()}>
 								<ProjectItem imgUrl={el} />
 							</a>
 						))}

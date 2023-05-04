@@ -4,6 +4,7 @@ import About from '../About';
 import Projects from '../Projects';
 import st from './App.module.scss';
 import Form from '../Form';
+import Footer from '../Footer';
 
 export const App = () => {
 	return (
@@ -14,6 +15,7 @@ export const App = () => {
 				<About />
 				<Projects />
 				<Form />
+				<Footer />
 			</main>
 		</>
 	);

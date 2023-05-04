@@ -67,30 +67,28 @@
 			path {
 				fill-opacity: 1;
 			}
-			&:nth-of-type(4),
-			&:nth-of-type(7) {
-				path {
-					fill-opacity: unset;
-					stroke-opacity: 1;
-				}
+		}
+		&#stroke a svg {
+			path {
+				fill-opacity: unset;
+				stroke-opacity: 1;
 			}
 		}
 	}
+
 	svg {
 		transition: 0.3s all ease;
 		path {
 			fill: var(--white);
 			fill-opacity: 0.75;
 		}
-		&:nth-of-type(4) {
-			border: 1px solid yellow;
-			fill: unset;
-			fill-opacity: unset;
-			path {
-				stroke: var(--white);
-				stroke: red;
-				stroke-opacity: 0.75;
-			}
+	}
+	&#stroke a svg {
+		path {
+			fill-opacity: none;
+			fill: none;
+			stroke: var(--white);
+			stroke-opacity: 0.75;
 		}
 	}
 }

@@ -2,9 +2,9 @@ import Header from '../Header';
 import Promo from '../Promo';
 import About from '../About';
 import Projects from '../Projects';
-import st from './App.module.scss';
 import Form from '../Form';
 import Footer from '../Footer';
+import st from './App.module.scss';
 
 export const App = () => {
 	return (
@@ -12,11 +12,12 @@ export const App = () => {
 			<Header />
 			<main className={st.app}>
 				<Promo />
-				<About />
+				{/*<About />
 				<Projects />
 				<Form />
-				<Footer />
+				*/}
 			</main>
+			{/*<Footer />*/}
 		</>
 	);
 };

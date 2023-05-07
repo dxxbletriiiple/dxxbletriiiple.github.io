@@ -62,7 +62,18 @@
 
 @media (max-width: 1200px) {
 	.promo {
-		padding: 150px;
+		padding: 80px;
+	}
+	.text {
+		font-size: 80px;
+		line-height: 80px;
+	}
+	.doodles {
+		border: 1px solid red;
+		width: 450px;
+		height: 570px;
+		background-size: 425px;
+		background-position: 28px -2px;
 	}
 }
 
